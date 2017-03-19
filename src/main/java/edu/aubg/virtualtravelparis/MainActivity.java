@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.content.ServiceConnection;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
     public void openQuickFacts(View view) {
         Intent intent = new Intent(this, QuickFactsActivity.class);
         startActivity(intent);
+    }
+
+    public void StartPlayingMusic(View view)
+    {
+        Intent music = new Intent(this, MusicService.class);
+        startService(music);
     }
 }
