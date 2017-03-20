@@ -14,5 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="140dp" />
 
-    
+    <fragment
+        android:name="edu.aubg.fragments.FragmentOne"
+        android:id="@+id/fragment_place"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
