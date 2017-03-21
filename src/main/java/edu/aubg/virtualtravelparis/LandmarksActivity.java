@@ -15,7 +15,7 @@ public class LandmarksActivity extends AppCompatActivity {
         setContentView(R.layout.activity_landmarks);
 
         GridView gridview = (GridView) findViewById(R.id.gridview);
-        gridview.setAdapter(new FactsAdapter(this));
+        gridview.setAdapter(new ImageAdapter(this));
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
