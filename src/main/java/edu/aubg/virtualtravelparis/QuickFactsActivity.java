@@ -35,28 +35,28 @@ public class QuickFactsActivity extends AppCompatActivity {
 
         switch (position)
         {
-            case '1':
+            case 0:
                 fr = new Fact1Fragment();
                 break;
-            case '2':
+            case 1:
                 fr = new Fact2Fragment();
                 break;
-            case '3':
+            case 2:
                 fr = new Fact3Fragment();
                 break;
-            case '4':
+            case 3:
                 fr = new Fact4Fragment();
                 break;
-            case '5':
+            case 4:
                 fr = new Fact5Fragment();
                 break;
-            case '6':
+            case 5:
                 fr = new Fact6Fragment();
                 break;
-            case '7':
+            case 6:
                 fr = new Fact7Fragment();
                 break;
-            case '8':
+            case 7:
                 fr = new Fact8Fragment();
                 break;
             default:

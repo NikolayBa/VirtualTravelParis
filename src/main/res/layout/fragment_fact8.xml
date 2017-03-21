@@ -6,8 +6,6 @@
     android:background="#ffff00"
     tools:context="edu.aubg.virtualtravelparis.Fact8Fragment">
 
-
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
