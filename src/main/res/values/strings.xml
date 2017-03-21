@@ -2,6 +2,14 @@
     <string name="app_name">VirtualTravelParis</string>
     <string name="title_activity_maps">Map</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fact1">Trees in Paris</string>
+    <string name="fact2">Open terraces</string>
+    <string name="fact3">condom-vending machines</string>
+    <string name="fact4">only one stop sign</string>
+    <string name="fact5">bell in the Notre Dame Cathedral</string>
+    <string name="fact6">shortest street in the city</string>
+    <string name="fact7">1,784 bakeries</string>
+    <string name="fact8">1,124 bars</string>
+
 </resources>
