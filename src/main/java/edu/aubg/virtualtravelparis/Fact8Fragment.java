@@ -15,7 +15,7 @@ public class Fact8Fragment extends Fragment {
         //Inflate the layout for this fragment
 
         return inflater.inflate(
-                R.layout.fragment_fact1, container, false);
+                R.layout.fragment_fact8, container, false);
     }
 }
 
