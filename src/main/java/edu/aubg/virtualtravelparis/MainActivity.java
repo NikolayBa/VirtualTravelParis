@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.content.ServiceConnection;
 
 public class MainActivity extends AppCompatActivity {
-
+    int flag=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,9 +31,19 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void StartPlayingMusic(View view)
-    {
-        Intent music = new Intent(this, MusicService.class);
-        startService(music);
+
+
+    public void StartPlayingMusic(View view) {
+
+        if (flag==0){
+            Intent music = new Intent(this, MusicService.class);
+            startService(music);
+            flag=1;
+        }
+        else {
+            Intent music = new Intent(this, MusicService.class);
+            stopService(music);
+            flag=0;
+        }
     }
 }

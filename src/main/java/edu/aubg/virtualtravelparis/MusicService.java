@@ -37,4 +37,11 @@ public class MusicService extends Service {
             mPlayer.setVolume(100, 100);
         }
     }
+
+    @Override
+    public void onDestroy () {
+        super.onDestroy();
+
+        mPlayer.stop();
+    }
 }
