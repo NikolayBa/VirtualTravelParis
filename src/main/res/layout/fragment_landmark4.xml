@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks4Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="After a five-year renovation and expansion that was completed in 2014, the Picasso Museum looks better than ever. Devised by architect Jean-François Bodin, the enhanced space includes more square footage, inserting contemporary white-wall galleries into the Hôtel Salé, a Baroque 17th-century mansion. Keep an eye out for mesmerizing plaster-white lighting and furniture by Diego Giacometti."
+        android:textStyle="bold" />
+</LinearLayout>

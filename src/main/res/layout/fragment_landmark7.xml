@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks7Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Located near Notre Dame on the Île de la Cité, the the Palais de Justice is part of a complex that contains some of the oldest buildings from the former royal palace, such as the Sainte-Chapelle, built in 1240, and the Conciergerie, a prison where Marie Antoinette was held before her execution."
+        android:textStyle="bold" />
+</LinearLayout>

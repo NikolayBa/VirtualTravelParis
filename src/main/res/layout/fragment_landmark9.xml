@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks9Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="The Sacré-Cœur Basilica, designed by Paul Abadie between 1875 and 1914, crowns the summit of Montmartre, the highest point in the city."
+        android:textStyle="bold" />
+</LinearLayout>

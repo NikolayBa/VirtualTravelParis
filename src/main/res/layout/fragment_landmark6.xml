@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks6Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="The Jardin des Plantes, one of the Museum of Natural History’s seven departments, comprises the Galerie de l’Évolution (shown), the Mineralogy Museum, the Paleontology Museum, and the Entomology Museum, in addition to the gardens. The establishment started in 1626 as a medicinal herb garden for Louis XIII"
+        android:textStyle="bold" />
+</LinearLayout>

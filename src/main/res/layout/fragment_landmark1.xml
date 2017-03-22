@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks1Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Devised by Gustave Eiffel in 1889 as
+        the entrance to the World’s Fair, the iron lattice Eiffel
+        Tower that was originally viewed as an eyesore has become
+        an emblem of the City of Light. At the top of the tower
+        visitors can now glimpse the petite apartment—complete
+        with paisley wallpaper and oil paintings—that Eiffel
+        kept for himself and his most prominent friends."
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks3Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="A central landmark in Paris, the Louvre is a must for anyone visiting France. Originally built to house the royal family in the late 12th century (it officially opened as a museum in 1793), the palace has undergone countless renovations and extensions since, including the installation of I. M. Pei’s iconic glass pyramids—which topped the museum’s new entrance—in 1989."
+        android:textStyle="bold" />
+</LinearLayout>

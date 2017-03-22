@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks12Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="The Grand Palais, resembling a giant greenhouse, has hosted a military hospital (during WWI), the World Fencing Championship, and Paris Fashion Week. Most days, though, the Beaux Arts building serves as the venue for one of the city’s many fine-art museums."
+        android:textStyle="bold" />
+</LinearLayout>

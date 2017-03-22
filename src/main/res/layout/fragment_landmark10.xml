@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks10Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="With its gleaming, gilded dome, Les Invalides is easy to spot from anywhere in the city. Established by Louis XIV in 1670 for old or unwell soldiers, the complex of buildings now houses several museums, a church, and—staying true to its origins—a hospital and home for retired soldiers.
+"
+        android:textStyle="bold" />
+</LinearLayout>

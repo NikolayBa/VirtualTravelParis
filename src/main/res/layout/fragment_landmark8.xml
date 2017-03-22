@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks8Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="The Musée d’Orsay, located on Paris’s Left Bank, originated as the Gare d’Orsay, a Beaux Arts railway station built between 1898 and 1900. Now the popular museum houses works of art from the period 1848 through 1914"
+        android:textStyle="bold" />
+</LinearLayout>

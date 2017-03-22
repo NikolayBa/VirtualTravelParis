@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="edu.aubg.virtualtravelparis.Landmarks5Fragment">
+
+
+
+    <TextView
+        android:id="@+id/textViewLandmark5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Built in 1861, the Jeu de Paume first housed tennis courts, then Nazi plunder in the 1940s. It’s now hung with modern and postmodern photography. The building, located on the north corner of the Tuileries Gardens, was revised by Antoine Stinco in 1989 to create a light-filled exhibition space."
+        android:textStyle="bold" />
+</LinearLayout>
