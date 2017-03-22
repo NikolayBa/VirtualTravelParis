@@ -42,9 +42,10 @@ public class FactsAdapter extends BaseAdapter {
     }
 
     // references to our images
-    private String[] mThumbIds = {
-            "Fact1", "Fact2", "Fact3", "Fact4", "Fact5",
-            "Fact6", "Fact7", "Fact8"
+    private Integer[] mThumbIds = {
+            R.string.fact1, R.string.fact2, R.string.fact3,
+            R.string.fact4, R.string.fact5, R.string.fact6,
+            R.string.fact7, R.string.fact8,
     };
 }
 

@@ -1,17 +1,23 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#443312"
+    android:background="#ffffff"
     tools:context="edu.aubg.virtualtravelparis.Fact2Fragment">
 
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/factterrace" />
 
     <TextView
+        android:layout_above="@id/imageView1"
         android:id="@+id/textView1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="This is fragment No.2"
+        android:layout_height="wrap_content"
+        android:text="@string/fact2full"
         android:textStyle="bold" />
-</LinearLayout>
+</RelativeLayout>
