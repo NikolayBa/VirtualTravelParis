@@ -8,27 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/eiffel2"
     tools:context="edu.aubg.virtualtravelparis.MainActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Virtual Travel"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Paris"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="32dp"
-        android:id="@+id/textView2" />
 
     <Button
         android:text="Map"
@@ -41,7 +22,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="openMaps" />
+        android:onClick="openMaps"
+        style="@android:style/Widget.Holo.Button"
+        android:background="@drawable/roundshapebtn" />
     <Button
         android:text="Landmarks"
         android:layout_width="wrap_content"
@@ -53,7 +36,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="openLandmarks" />
+        android:onClick="openLandmarks"
+        style="@android:style/Widget.Holo.Button"
+        android:background="@drawable/roundshapebtn" />
 
     <Button
         android:text="Quick Facts"
@@ -66,7 +51,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="openQuickFacts"/>
+        android:onClick="openQuickFacts"
+        style="@android:style/Widget.Holo.Button"
+        android:background="@drawable/roundshapebtn" />
 
     <Button
         android:text="Music"
@@ -78,6 +65,33 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="StartPlayingMusic"/>
+        android:onClick="StartPlayingMusic"
+        style="@android:style/Widget.Holo.Button"
+        android:radius="100dp"
+
+        android:background="@drawable/roundshapebtn"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Virtual Travel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Paris"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        tools:textScaleX="1"
+        android:textAllCaps="false"
+        android:textSize="50sp" />
 
 </RelativeLayout>
