@@ -12,4 +12,12 @@
     <string name="fact7">1,784 bakeries</string>
     <string name="fact8">1,124 bars</string>
 
+    <string name="fact1full">All the trees in Paris are referenced and measured. And there are 470,000 of them. </string>
+    <string name="fact2full">Open terraces. If you were to spend each day of your life in Paris visiting a different open terrace (of a bar, cafe, or restaurant), then it would take you 29.8 years to see them all (and who knows how many new ones will open in that time!). Yes, there are 9,057 of them.</string>
+    <string name="fact3full">There are 31 street condom-vending machines in Paris, provided by the Town Hall. And in case you\'re in a tight spot, here is a map to all of them.</string>
+    <string name="fact4full">In the whole of Paris, there is only one stop sign, situated at the exit of a building company in the rich 16th arrondissement. The traffic system in Paris is mainly based on giving way to those coming from the right. </string>
+    <string name="fact5full">The main bell in the Notre Dame Cathedral weighs over 13 tonnes. And it\'s called Emmanuel.</string>
+    <string name="fact6full">The shortest street in the city - at just 5.75 metres - is Rue des Degrés in the 2nd arrondissement.</string>
+    <string name="fact7full">If you like baguettes then you\'re in the right city because there are 1,784 bakeries in Paris. </string>
+    <string name="fact8full">And lastly, there are plenty of bars too, although not as many as there are bakeries. In fact there are 1,124 bars in the city at your disposal. </string>
 </resources>
